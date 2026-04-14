@@ -3,14 +3,15 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "cognix-ai-bueorm"
+name = "cognix-ai-framework"
 version = "0.1.0"
 authors = [
-  { name="BUEORM", email="dalusx64@gmail.com" },
+  { name="Gerson Buenahora", email="dalusx64@gmail.com" },
 ]
 description = "A simplified AI library for model management, inference, and fine-tuning."
 readme = "README.md"
 requires-python = ">=3.8"
+license = {text = "MIT"}
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
@@ -30,6 +31,9 @@ dependencies = [
     "requests",
 ]
 
+[project.urls]
+"Homepage" = "https://github.com/golemgamer/cognix"
+"Bug Tracker" = "https://github.com/golemgamer/cognix/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]
