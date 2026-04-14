@@ -1,0 +1,9 @@
+transformers
+datasets
+peft
+accelerate
+bitsandbytes
+torch
+torchvision
+huggingface_hub
+pillow

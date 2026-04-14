@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cognix-ai-bueorm"
+version = "0.1.0"
+authors = [
+  { name="BUEORM", email="dalusx64@gmail.com" },
+]
+description = "A simplified AI library for model management, inference, and fine-tuning."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "transformers",
+    "datasets",
+    "peft",
+    "accelerate",
+    "bitsandbytes",
+    "torch",
+    "torchvision",
+    "huggingface_hub",
+    "pillow",
+    "requests",
+]
+
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["cognix*"]
