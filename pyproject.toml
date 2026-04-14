@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "cognix-ultra-simple-ai"
+name = "cognix-ai"
 version = "0.1.0"
 authors = [
   { name="Gerson Buenahora", email="dalusx64@gmail.com" },
