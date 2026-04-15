@@ -5,7 +5,7 @@ Cognix is a powerful yet simplified Python library for model management, inferen
 ## Installation
 
 ```bash
-pip install cognix
+pip install cognix-ai
 ```
 
 ## Features
@@ -98,3 +98,6 @@ MIT
 
 ## Contributing
 Visit our GitHub: [github.com/golemgamer/cognix](https://github.com/golemgamer/cognix)
+
+
+[![Buy Me a Coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=&slug=bueorm&button_colour=5F7FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00)](https://www.buymeacoffee.com/bueorm)
